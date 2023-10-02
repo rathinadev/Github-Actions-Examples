@@ -1,8 +1,8 @@
 # Sample test
 
-def test(a,b):
+def multipy(a,b):
     return a*b
 
 def test_mul():
-    assert test(3,4) == 12
-    assert test(4,5) == 20
+    assert multiply(3,4) == 12
+    assert multiply(4,5) == 20
